@@ -1,0 +1,91 @@
+h1 {
+    color: #313131;
+    font-family: 'Merriweather';
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    line-height: 110%;
+
+    margin: 0;
+}
+
+.background {
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.hero {
+    /* background-image: url(../img/png/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-position: var(--bg-position); */
+
+    padding-top: 36px;
+    padding-bottom: 132px;
+}
+
+
+
+.hero-greeting {
+    max-width: 542px;
+}
+
+.hero-greeting-word {
+    display: block;
+}
+
+.hero-greeting-word_city {
+    text-align: center;
+}
+
+.hero-greeting-word_globe {
+    text-align: right;
+}
+
+
+.hero-greeting__subtext {
+    font-family: 'Golos Text', sans-serif;
+    line-height: 120%;
+    font-size: 18px;
+    text-align: center;
+
+    margin: 0;
+    padding: 26px 0 40px 0;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-actions button {
+    padding: 20px 49px;
+    border-radius: 66px;
+    background: transparent;
+    font-family: 'Golos Text', sans-serif;
+    max-width: 263px;
+
+    font-weight: 600;
+    font-size: 16px;
+}
+
+button.hero-actions_support {
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
+}
+
+button.hero-actions_more {
+    color: #1f1f1f;
+    border: 2px solid #1f1f1f;
+}
