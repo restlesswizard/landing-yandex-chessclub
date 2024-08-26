@@ -2,9 +2,9 @@ header {
     height: 36px;
     padding: 26px 0;
 
-    /* background-image: url(../img/png/background.png);
-    background-size: cover;
-    background-attachment: fixed;
+    position: absolute;
 
-    background-position: var(--bg-position); */
+    top: 0;
+    left: 0;
+    right: 0;
 }

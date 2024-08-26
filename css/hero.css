@@ -10,7 +10,7 @@ h1 {
     margin: 0;
 }
 
-.background {
+/* .background {
     position: absolute;
     bottom: 15%;
     left: 0;
@@ -19,19 +19,17 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
-}
+} */
 
 .hero {
-    /* background-image: url(../img/png/background.png);
+    background-image: url(../img/png/background.png);
     background-size: cover;
     background-repeat: no-repeat;
 
-    background-attachment: fixed;
-
-    background-position: var(--bg-position); */
-
-    padding-top: 36px;
+    padding-top: 124px;
     padding-bottom: 132px;
+    background-position: 0 80%;
+
 }
 
 
