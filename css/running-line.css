@@ -1,0 +1,52 @@
+.running-line {
+    height: 60px;
+    vertical-align: middle;
+    background-color: #F54932;
+    display: flex;
+    align-items: center;
+}
+
+.running-line__content {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+
+.running-line__item {
+    margin: 0;
+    font-family: 'Merriweather';
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    gap: 12px;
+    display: list-item;
+    white-space: nowrap;
+    text-transform: uppercase;
+
+}
+
+.running-line__scroller {
+    overflow: hidden;
+    
+}
+
+.running-line__scroller .running-line__content {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: running-text 30s linear infinite; 
+
+    padding: 0;
+}
+
+.running-line__scroller .running-line__content:hover {
+    animation-play-state: paused;
+}
+
+@keyframes running-text {
+    to {
+        transform: translate(calc(-50% - 1rem))
+    }
+}
