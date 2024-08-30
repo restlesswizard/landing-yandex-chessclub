@@ -6,6 +6,7 @@
 @import url(./css/header.css);
 @import url(./css/hero.css);
 @import url(./css/running-line.css);
+@import url(./css/theme.css);
 
 :root {
     --bg-position: center;
@@ -16,6 +17,15 @@ body {
     margin: 0;
     padding: 0;
     /* overflow-x: hidden; */
+}
+
+
+h1, h2 {
+    font-family: 'Merriweather';
+}
+
+h2 {
+    font-size: 36px
 }
 
 .wrapper {

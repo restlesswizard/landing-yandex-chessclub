@@ -1,0 +1,28 @@
+.wrapper.theme__wrapper {
+    margin-top: 80px;
+}
+
+.theme__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px
+}
+
+
+.text_highlight {
+    color: #F54932;
+    font-weight: bold;
+}
+
+.theme__heading {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.theme__img img {
+    max-height: 250px;
+    clip-path: ellipse();
+}
+
+
+
